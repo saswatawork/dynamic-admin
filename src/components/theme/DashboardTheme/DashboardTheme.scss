@@ -1,0 +1,25 @@
+.dashboard {
+  display: flex;
+  // flex: 1;
+  // flex-wrap: wrap;
+  // &__item {
+  //   margin: 10px;
+  // }
+}
+.dashboard-content {
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-menu-wrapper {
+  min-height: 100vh;
+  min-width: 14rem;
+}
+
+.content-wrapper {
+  background-color: #f8f9fc;
+  overflow-x: hidden;
+  flex: 1;
+}

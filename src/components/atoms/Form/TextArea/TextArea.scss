@@ -1,0 +1,20 @@
+.text-area {
+  border-radius: 5px;
+  display: flex;
+  flex: 4 1;
+  &__label {
+    text-transform: capitalize;
+    min-width: 75px;
+    padding-right: 20px;
+    color: #8c999d;
+    display: flex;
+    flex: 1;
+  }
+  &__input {
+    border: 1px solid #d9e4e6;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex: 4;
+  }
+}

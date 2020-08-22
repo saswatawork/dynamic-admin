@@ -1,0 +1,49 @@
+[
+  {
+    "module": "users",
+    "name": "User",
+    "tableName": "admin_user",
+    "fields": {
+      "first_name": "string",
+      "last_name": "string",
+      "email": "string",
+      "phone": "string",
+      "username": "string",
+      "password": "string"
+    }
+  },
+  {
+    "module": "blogs",
+    "name": "Blog",
+    "tableName": "admin_blog",
+    "fields": {
+      "title": "string",
+      "description": "text",
+      "author": "string",
+      "topic": "string"
+    }
+  },
+  {
+    "module": "products",
+    "name": "Product",
+    "tableName": "admin_product",
+    "fields": {
+      "title": "string",
+      "description": "text",
+      "author": "string",
+      "price": "decimal",
+      "featured": "string"
+    }
+  },
+  {
+    "module": "orders",
+    "name": "Order",
+    "tableName": "admin_order",
+    "fields": {
+      "order_id": "string",
+      "state": "string",
+      "customer": "string",
+      "total": "decimal"
+    }
+  }
+]

@@ -1,0 +1,65 @@
+th {
+  color: #fff;
+  background-color: #007bff;
+  min-width: 8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  span {
+    font-weight: 400;
+  }
+
+  &:hover {
+    background-color: #002fff;
+    color: #fff;
+  }
+}
+
+td {
+  min-width: 8rem;
+  max-width: 20rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-head-item {
+  position: relative;
+  cursor: pointer;
+
+  &.active {
+    background-color: #333333;
+  }
+
+  &__icon {
+    position: absolute;
+    right: 0.5rem;
+  }
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.no-item-per-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    padding-left: 0.5rem;
+  }
+
+  .form-group {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,51 @@
+.main-header {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+    &.__item {
+        padding: 10px 0;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-right-panel {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+        li {
+            color: #2B2D3A;
+            padding: 0px 15px;
+            border-right: 1px solid #808080;
+
+            &.phone {
+                img {
+                    vertical-align: middle;
+                    padding-right: 5px;
+                }
+
+                span {
+                    vertical-align: middle;
+                }
+            }
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                border-right: none;
+                padding-right: 0;
+            }
+        }
+    }
+}
